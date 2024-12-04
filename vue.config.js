@@ -4,8 +4,7 @@ const webpack = require('webpack');
 module.exports = defineConfig({
   transpileDependencies: true,
 
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue-weather/' : '/',
-
+  publicPath: process.env.NODE_ENV === "production" ? "/vue-weather/" : "/",
 
   configureWebpack: {
     plugins: [
